@@ -1,9 +1,11 @@
+#Task 1
 name = "Paulina"
 greeting = "Hello SheGoesTech"
 print(name)
 print(greeting)
 print(greeting[:5] + f", {name}, welcome to" + greeting[5:] + "!")
 
+#Task 2
 x = 3
 y = 5
 if (x == y):
@@ -11,6 +13,7 @@ if (x == y):
 else:
     print("The items are different.")
 
+#Task 3
 personAge = int(input("Please enter your age:"))
 personName = input("Please enter your name:")
 ageLimit = 18
