@@ -1,23 +1,23 @@
-#Task 1
+# Task 1
 name = "Paulina"
 greeting = "Hello SheGoesTech"
 print(name)
 print(greeting)
 print(greeting[:5] + f", {name}, welcome to" + greeting[5:] + "!")
 
-#Task 2
+# Task 2
 x = 3
 y = 5
-if (x == y):
+if x == y:
     print("The items are the same.")
 else:
     print("The items are different.")
 
-#Task 3
+# Task 3
 personAge = int(input("Please enter your age:"))
 personName = input("Please enter your name:")
 ageLimit = 18
-if (personAge >= ageLimit):
+if personAge >= ageLimit:
     print(f"Welcome to the club, {personName}!")
 else:
     yearsToWait = ageLimit - personAge
