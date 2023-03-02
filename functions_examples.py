@@ -30,7 +30,7 @@ reverse_string("hello")
 
 # Task 9
 
-def sum_numbers(*num: tuple) -> float:
+def sum_numbers(*num: float) -> float:
     """Takes in a list of numbers and returns the sum of them."""
     sum_number = 0
     for i in num:
